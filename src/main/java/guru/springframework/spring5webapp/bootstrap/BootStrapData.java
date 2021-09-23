@@ -19,7 +19,7 @@ public class BootStrapData implements CommandLineRunner
     public BootStrapData(AuthorRepository authorRepository, BookRepository bookRepository,
                          PublisherRepository publisherRepository)
     {
-        // comment
+        // test comment
         this.authorRepository = authorRepository;
         this.bookRepository = bookRepository;
         this.publisherRepository = publisherRepository;
