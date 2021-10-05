@@ -26,7 +26,7 @@ public class BootStrapData implements CommandLineRunner
     }
 
     @Override
-    public void run(String... args) throws Exception
+    public void run(String... args)
     {
         // Initialise some Publisher data
         Publisher tor = new Publisher("Tor", "1 La Rue Jaune", "Leeds", "LE12BP");
